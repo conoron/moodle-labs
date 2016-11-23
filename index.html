@@ -1,0 +1,724 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
+     <script>hljs.initHighlightingOnLoad();</script>
+
+      <style>
+        
+
+body 
+{
+  font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
+}
+
+figcaption
+{
+  margin-bottom: 20px;
+}
+
+.vertical-align
+{
+  display: flex;
+  align-items: center;
+}
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="ui middle aligned center aligned stackable grid segment">
+
+  <a class="ui blue left corner label">
+  <div id="showTOC" class="popup" data-content="Reveal TOC">
+    <i id="toc" class="sitemap big  icon"></i>
+  </div>
+</a>
+
+  <div class="seven wide center aligned column">
+    <h2 class="headder"> Moodle Labs</h2>
+    <p> Top Level Topics </p>
+  </div>
+
+  
+<div class="two wide column sitemap">
+  <div class="popup" data-content="Top Level Topic View">
+    <a href="#"> <i class="huge home icon"></i> Topics </a>
+  </div>
+</div>
+
+  
+<div class="four wide column">
+  <div class="ui center aligned mini message segment">
+    Conor O'Neill (cponeill@wit.ie).
+    <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank">Creative Commons License
+    </a>
+  </div>
+</div>
+
+
+  
+<div class="ui two wide right aligned column">
+  <div class="ui left aligned middle aligned very basic grid">
+    <div class="row">
+      <div class="popup" data-content="All Slides in Course">
+        <a href="talkwall.html"> <i class="large film icon"></i> All Slides </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="popup" data-content="All Labs in Course">
+        <a href="labwall.html"> <i class="large lab icon"></i> All Labs </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</header>
+
+
+<div class="ui segment pushable">
+  <div class="ui inverted inline vertical sidebar menu">
+    
+    <div class="header">
+      <a class="item" href="topic01/index.html">
+        Introducing Moodle Quiz
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic01/talk-1/a-introduction.pdf">
+          Moodle Quiz</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic01/book-a/index.html">
+          Lab-01</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic01/book-b/index.html">
+          Lab-02</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic01/book-c/index.html">
+          Lab-03</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic02/index.html">
+        Introducing Turnitin
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic02/talk-1/a-introduction.pdf">
+          Turnitin </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02/book-a/index.html">
+          Lab-04</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02/book-b/index.html">
+          Lab-05</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02/book-c/index.html">
+          Lab-06</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic03/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic03/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03/book-a/index.html">
+          Lab-07</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03/book-b/index.html">
+          Lab-08</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03/book-c/index.html">
+          Lab-09</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic04/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic04/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04/book-a/index.html">
+          Lab-10</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04/book-b/index.html">
+          Lab-11</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04/book-c/index.html">
+          Lab-12</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic05/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic05/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05/book-a/index.html">
+          Lab-13</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05/book-b/index.html">
+          Lab-14</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05/book-c/index.html">
+          Lab-15</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic06/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic06/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06/book-a/index.html">
+          Lab-16</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06/book-b/index.html">
+          Lab-17</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06/book-c/index.html">
+          Lab-18</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic07/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic07/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07/book-a/index.html">
+          Lab-20</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07/book-b/index.html">
+          Lab-21</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07/book-c/index.html">
+          Lab-22</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic08/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic08/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic08/book-a/index.html">
+          Lab-23</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic08/book-b/index.html">
+          Lab-24</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic08/book-c/index.html">
+          Lab-25</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic09/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic09/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic09/book-a/index.html">
+          Lab-26</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic09/book-b/index.html">
+          Lab-27</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic09/book-c/index.html">
+          Lab-28</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic10/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic10/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic10/book-a/index.html">
+          Lab-29</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic10/book-b/index.html">
+          Lab-30</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic10/book-c/index.html">
+          Lab-31</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic11/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic11/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic11/book-a/index.html">
+          Lab-32</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic11/book-b/index.html">
+          Lab-33</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic11/book-c/index.html">
+          Lab-34</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic12/index.html">
+        Adobe Connect
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic12/talk-1/a-introduction.pdf">
+          Moodle Bootstrap Combination</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic12/book-a/index.html">
+          Touch</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic12/book-b/index.html">
+          Learn</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic12/book-c/index.html">
+          Engage</a>
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <div class="ui four doubling stackable cards">
+        
+          
+  <a class="ui raised link card" href="./topic01/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Introducing Moodle Quiz </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic01/talk-1/a-introduction.jpg">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>We explore how to set up a Moodle quiz and how you would add questions from the question bank to the quiz</p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic02/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Introducing Turnitin </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic02/topic.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Turnitin can be used from with in Moodle very easily, it will match text from Internet sources and database from all over the world, it displays originality reports to both students and lecturers and show you were the text matches have been found and will colour coordinate the matches, take a closer look.</p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic03/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic03/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic04/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic04/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic05/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic05/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic06/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic06/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic07/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic07/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic08/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic08/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic09/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic09/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic10/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic10/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic11/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic11/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+          
+  <a class="ui raised link card" href="./topic12/index.html">
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Adobe Connect </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic12/talk-1/a-introduction.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Adobe Connect is a technology that allows Lecturers to deliver on-line presentations, webinars, and on-line meetings and conferences, it offers an extra flexibility, share your screen, record sessions, chat with individuals, try it now.  </p>
+
+      </div>
+    </div>
+  </a>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+
+    </footer>
+    <script>
+      
+$(document).ready(function()
+{
+  $("img").addClass ("ui image");
+  $('.ui.embed').embed();
+
+  var images = $(".lab img");
+  jQuery.each(images, function(i)  {
+    if((images[i].alt).length > 0)
+    {
+      var div_img = $(document.createElement("div")).addClass("ui segment");
+      $(images[i]).wrap(div_img);
+      var div_label = $(document.createElement("div")).addClass("ui ribbon teal top attached label");
+      div_label.append(images[i].alt);
+      $(div_label).insertBefore(images[i]);
+    }
+  });
+
+
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
+
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
+  </body>
+
+ </html>
